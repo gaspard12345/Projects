@@ -55,7 +55,7 @@ def exception_report(df: pd.DataFrame) -> pd.DataFrame:
         "missing market value": df["market_value"].isna(),
         "missing FX rate": df["eur_rate"].isna(),
         "invalid ISIN length": df["isin"].str.len() != 12,
-              "negative market value": df["market_value"] < 0,
+        "negative market value": df["market_value"] < 0,
     }
     frames = [df.loc[mask].assign(exception=reason) for reason, mask in checks.items()]
     exc = pd.concat(frames, ignore_index=True)
