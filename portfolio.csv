@@ -1,0 +1,9 @@
+position_id,isin,security_name,asset_class,currency,market_value_eur,report_date
+P001,FR0000000001,French Gov 2030,Government Bond,EUR,2500000,2026-09-30
+P002,DE0000000002,German Gov 2028,Government Bond,EUR,1800000,2026-09-30
+P003,XS0000000003,Corp A 4% 2031,Corporate Bond,EUR,1200000,2026-09-30
+P004,US0000000004,Corp B 5% 2029,Corporate Bond,USD,900000,2026-09-30
+P005,FR0000000005,Company C,Equity,EUR,1500000,2026-09-30
+P006,US0000000006,Company D,Equity,USD,1100000,2026-09-30
+P007,LU0000000007,Money Market Fund,Fund,EUR,600000,2026-09-30
+P008,,Unknown security,Corporate Bond,EUR,,2026-09-30
